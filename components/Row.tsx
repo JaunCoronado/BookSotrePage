@@ -20,6 +20,10 @@ function Row({ title, movies }: Props) {
       ? scrollLeft - clientWidth
       : scrollLeft + clientWidth
 
+      if(scrollTo == 0){
+        setIsMoved(false)
+      }
+
       rowRef.current.scrollTo({left: scrollTo, behavior: "smooth"})
     }
   }
