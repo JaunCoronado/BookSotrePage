@@ -1,33 +1,38 @@
-export interface Genre {
-  id: number
-  name: string
+export interface Book {
+  createdAt: number | null,
+  updatedAt: number | null,
+  id:string | null,
+  title: string,
+  synopsis: string,
+  cover: string,
+  publishedDate: string,
+  authorId: any,
+  categoryId: string | null,
+  userId: string | null
 }
 
-export interface Movie {
-  title: string
-  backdrop_path: string
-  media_type?: string
-  release_date?: string
-  first_air_date: string
-  genre_ids: number[]
-  id: number
-  name: string
-  origin_country: string[]
-  original_language: string
-  original_name: string
-  overview: string
-  popularity: number
-  poster_path: string
-  vote_average: number
-  vote_count: number
+export interface User {
+  books: Book[],
+  createdAt: string,
+  updatedAt: number,
+  id: string,
+  name: string,
+  email: string,
+  roleId: string,
 }
 
-export interface Element {
-  type:
-    | 'Bloopers'
-    | 'Featurette'
-    | 'Behind the Scenes'
-    | 'Clip'
-    | 'Trailer'
-    | 'Teaser'
+export interface Category {
+  books: Book[],
+  createdAt: number,
+  updatedAt: number,
+  id: string,
+  name: string,
+}
+
+export interface Author{
+  books: Book[],
+  createdAt: number,
+  updatedAt: number,
+  id: string,
+  name: string
 }

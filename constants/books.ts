@@ -1,0 +1,2 @@
+export const bannerBg = "https://imgs.search.brave.com/XZTI8lgRaiVjt9DCNCBieefG2b_cmzcGJRXoETsygLA/rs:fit:1200:1050:1/g:ce/aHR0cHM6Ly9zMS5y/MjlzdGF0aWMuY29t/L2Jpbi9lbnRyeS85/NGUvMCwwLDIwMDAs/MTA1MC94LDgwLzE4/NDQwODkvaW1hZ2Uu/anBn";
+export const loginBg = "https://imgs.search.brave.com/JVfyipj3tTxxsuBiuucmqytxsTmaW4ht2SSJHa5xQ0s/rs:fit:1200:1080:1/g:ce/aHR0cDovL2dldHdh/bGxwYXBlcnMuY29t/L3dhbGxwYXBlci9m/dWxsLzEvZS9lLzI3/MTQyMC5qcGc"

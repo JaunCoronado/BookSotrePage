@@ -13,6 +13,6 @@ module.exports = {
   },
   reactStrictMode: true,
   images: {
-    domains: ['image.tmdb.org', 'rb.gy']
+    domains: ['image.tmdb.org', 'rb.gy', 'localhost', "imgs.search.brave.com"]
   }
 }
